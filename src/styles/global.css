@@ -50,12 +50,10 @@
       Segoe UI Emoji,
       Segoe UI Symbol,
       Noto Color Emoji;
-    margin: 0;
-    font-weight: 300;
-    font-size: 16px;
     color: #161616;
     -webkit-font-smoothing: antialiased;
     min-width: 320px;
+    @apply font-medium m-0 text-p1;
   }
 
   code {
