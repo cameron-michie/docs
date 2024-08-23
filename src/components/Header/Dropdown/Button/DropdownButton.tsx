@@ -46,7 +46,7 @@ export const DropdownButtonAndMenu = ({
         <span className="font-bold">{titleOverride || dropdownDataID}</span>
         <Icon name="icon-gui-disclosure-arrow" size="1.5rem" additionalCSS={chevronDown} />
       </button>
-      {isOpen && <DropdownMenu {...dropdownData[dropdownDataID]} />}
+      {isOpen ? <DropdownMenu {...dropdownData[dropdownDataID]} /> : null}
     </div>
   );
 };
