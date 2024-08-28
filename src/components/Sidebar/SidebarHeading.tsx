@@ -39,7 +39,7 @@ export const SidebarHeading = <C extends ElementType>({
     ...props,
     id: sidebarHeadingId,
     ref: scrollLinkIntoView,
-    className: cn(sidebar, `ml-${indent} break-words ${indent ? 'font-medium' : 'font-semibold'}`, className, {
+    className: cn(sidebar, `ml-${indent} break-words ${indent ? 'font-normal' : 'font-medium'}`, className, {
       'text-cool-black': !isActive,
       [activeClassName]: isActive,
     }),
