@@ -52,7 +52,7 @@ export const MultilineCodeContent = ({
   return (
     <code
       ref={preRef}
-      className="ui-text-code"
+      className="ui-text-code text-code2"
       style={{ whiteSpace: 'pre-wrap' }}
       dangerouslySetInnerHTML={{
         __html: DOMPurify.sanitize
