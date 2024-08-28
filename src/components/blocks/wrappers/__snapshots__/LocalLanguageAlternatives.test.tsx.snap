@@ -101,7 +101,7 @@ exports[`<LocalLanguageAlternatives /> renders correctly 1`] = `
     lang="python"
   >
     <code
-      class="ui-text-code"
+      class="ui-text-code text-code2"
       style="white-space: pre-wrap;"
     >
       function () {
