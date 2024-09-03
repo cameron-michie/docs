@@ -1,0 +1,31 @@
+---
+title: Use the Ably dashboard
+meta_description: " Manage and monitor your applications on the Ably platform using the Ably dashboard. Create new apps, view existing ones, and configure settings from your browser."
+meta_keywords: “Ably dashboard, manage applications, monitor apps, app creation, application settings, Ably platform”
+---
+
+You can begin by signing in to Ably through your browser. Once you've signed in, you'll be directed to the main Ably "dashboard":https://ably.com/accounts.
+
+On the main dashboard, you can "create a new app":#create or "view your apps.":#view
+
+h2(#create). Create a new app
+
+The following image shows the Ably dashboard without any apps yet being create. You can *create a new app*:
+
+<a href="@content/screenshots/dash/create-app.png" target="_blank">
+  <img src="@content/screenshots/dash/create-app.png" style="width: 100%" alt="Create apps in the Ably dashboard">
+</a>
+
+h2(#view). View your apps
+
+The following image shows the main Ably dashboard with the apps associated with your account. You can click on any app to access its specific dashboard, view its deployment information, and configure its settings:
+
+<a href="@content/screenshots/dash/your-apps.png" target="_blank">
+  <img src="@content/screenshots/dash/your-apps.png" style="width: 100%" alt="Your apps in the Ably dashboard">
+</a>
+
+The following tabs in your app dashboard enable you to monitor and configure your application:
+
+<a href="@content/screenshots/dash/dash-tabs.jpg" target="_blank">
+  <img src="@content/screenshots/dash/dash-tabs.jpg" style="width: 100%" alt="Your app dashboard tabs">
+</a>

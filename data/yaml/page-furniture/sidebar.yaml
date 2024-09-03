@@ -160,12 +160,32 @@ items:
       - label: 'Ably accounts and apps'
         link: ''
         items:
-          - label: 'User management'
-            link: /account/users
-          - label: 'Single sign-on (SSO)'
-            link: /account/sso
-          - label: 'Two-factor authentication (2FA)'
-            link: /account/2fa
+          - label: 'Account settings'
+            link: ''
+            items:
+              - label: 'User management'
+                link: /account/users
+              - label: 'Single sign-on (SSO)'
+                link: /account/sso
+              - label: 'Two-factor authentication (2FA)'
+                link: /account/2fa
+          - label: 'Apps'
+            link: ''
+            items:
+              - label: 'Overview'
+                link: /account/dashboard
+              - label: 'Stats'
+                link: /account/dashboard/stats
+              - label: 'API keys'
+                link: /account/dashboard/API-keys
+              - label: 'Queues'
+                link: /account/dashboard/queues
+              - label: 'Notifications'
+                link: /account/dashboard/notifications
+              - label: 'Dev console'
+                link: /account/dashboard/dev-console
+              - label: 'App settings'
+                link: /account/dashboard/settings
           - label: 'Programmatic management with Control API'
             link: /account/control-api
       - label: 'Further Reading'
